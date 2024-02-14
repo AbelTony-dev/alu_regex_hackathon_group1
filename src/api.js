@@ -1,4 +1,4 @@
-// api.js
+
 
 const fetchTwitterHandles = async () => {
   try {
