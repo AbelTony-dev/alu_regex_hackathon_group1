@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import TwitterHandles from "./TwitterHandles"; // Import the TwitterHandles component
-import fetchTwitterHandles from "./api"; // Import the function to fetch Twitter handles
+import TwitterHandles from "./TwitterHandles"; 
+import fetchTwitterHandles from "./api"; 
 
 function App() {
   const [handles, setHandles] = useState([]);
@@ -20,7 +20,7 @@ function App() {
         <h1>Welcome to My Twitter Handles App</h1>
       </header>
       <main>
-        <TwitterHandles handles={handles} /> {/* Pass handles as a prop */}
+        <TwitterHandles handles={handles} /> 
       </main>
     </div>
   );
